@@ -1,0 +1,15 @@
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+img {
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}
